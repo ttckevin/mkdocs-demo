@@ -1,0 +1,18 @@
+site_name: mkdocs-demo
+site_url: https://ttckevin.github.io/mkdocs-demo/
+site_author: Test
+repo_name: ttckevin/mkdocs-demo
+repo_url: https://github.com/ttckevin/mkdocs-demo
+
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  features:
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: Code.md
+
